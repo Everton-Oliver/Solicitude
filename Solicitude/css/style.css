@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+body {
+    overflow-x: hidden;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/* coluna */
+[class*="col-"] {
+    padding: 1rem;
+}
+/* coluna */
+
+/* Navegação */
+.navbar {
+    padding: .7rem 1rem;
+    text-transform: uppercase;
+    font-size: .9rem;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    transition: background-color .5s ease 0s;
+    background-color: #A32B2B;
+}
+
+.navbar a {
+    border-right: 1px solid white;
+    padding: 0;
+}
+
+.navbar-brand img {
+   height: 4rem;
+   padding: 5px;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 20px auto;
+    border: 2px solid black;
+    background-color: #f1f2f6;
+
+}
+
+.rodape img{
+    height: 200px;
+    margin: 0 auto;
+}
+
+.svg-inline--fa.fa-w-14 {
+    color: white;
+    font-size: 1.6rem;
+    font-family: nie
+} 
+
+.navbar-nav li {
+    padding-right: .8rem;
+}
+
+.navbar-nav .nav-link {
+    color: #FFFFFF;
+    padding-top: .8rem;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    color: #f1f2f6;
+}
+
+.navbar.solid {
+    background: rgba(0, 0, 0, 0.7)!important;
+    transition: background-color 1s ease 0s;
+
+}
+
+/* IMAGEM DE FUNDO */
+#home-inner {
+    background-image: url('Thumb1.jpg');
+    background-size: cover;
+}
+/* IMAGEM DE FUNDO */
+
+.br {
+    background-color: #A32B2B;
+    background-size: cover;
+    margin: 20px 0;
+    color: white;
+    text-transform: uppercase;
+}
+
+.fl {
+    color: #A32B2B;
+}
+
+.conteudo{
+    background-color: #f1f2f6;
+    margin: 15px 0;
+
+}
+
+.projetos h3{
+    text-transform: uppercase;
+    color: #A32B2B;
+}
+
+.conteudo img{
+    width: 100%;
+}
+
+.texto {
+    padding: 20px;
+}
+
+.rodapeh1 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.rodapeh1 h1{
+    margin: 10px;
+}
+
+.content {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.menu {
+	position: relative;
+	z-index: 4;
+	display: flex;
+	flex-direction: column;
+	margin: 0 40vw 0 0;
+	font-size: 2.8vw;
+	padding: 0;
+	margin-top: -50px;
+    align-items: flex-start;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 1em;
+    width: 40%;
+}
+
+.menu h3 {
+   border-bottom: 2px solid white;
+    
+}
+
+.contato p {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.contato img{
+    width: 50%;
+}
+.contato h1{
+    text-transform: uppercase;
+    color: #A32B2B;
+}
+
+.contbar {
+    border-right: 2px solid #A32B2B;
+    font-weight: 200;
+}
+
+.section {
+    position: relative;
+	width: 100%;
+	display: block;
+}
+
+.video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 40px 0;
+    
+}
+
+
+
+
+
+
+GMAIL
+ongsolicitude@gmail.com
+218275878
+
+pagseguro
+ongsolicitude.com 
+solicitude218
